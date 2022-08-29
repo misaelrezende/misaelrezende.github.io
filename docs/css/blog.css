@@ -1,0 +1,53 @@
+#body-container{
+    width: 60%;
+}
+
+#post-title{
+    margin-top: 5%;
+    font-family: Merriweather, serif;
+}
+
+#blog-presentation{
+    margin: 20vh 0 10vh;
+    font-size: 1.5rem;
+    font-family: serif;
+    text-align: left;
+}
+
+.blog-links{
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.post-dates{
+    display: inline;
+    font-size: 0.9rem;
+}
+
+.post-paragraphs{
+    text-align: left;
+    line-height: 1.5rem;
+}
+.post-paragraphs:last-child{
+    margin-bottom: 5rem;
+}
+
+#post-date{
+    margin-bottom: 2rem;
+}
+
+.special-message{
+    padding-left: 0.5rem;
+    /* box-shadow: inset 5px 0 5px -5px brown;
+    box-shadow: inset 0.5rem 0 0.5rem -0.5rem brown; */
+    border-left-style: solid;
+    /* border-left-width: thin; */
+    border-color: brown;
+    font-size: 1.05rem;
+}
+
+@media screen and (max-width: 800px){
+    #body-container{
+        width: 90%;
+    }
+}
