@@ -52,6 +52,9 @@ a:after{
 a:hover:before, a:hover:after{
   width: 100%;
 }
+a:visited{
+  color: brown;
+}
 
 p{
   color: rgb(50, 50, 50);
