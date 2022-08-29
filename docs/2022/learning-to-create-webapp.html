@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="../css/blog.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet"> <!-- Merryweather tipography-->
+	<title>My journey creating a web application using Django</title>
+</head>
+<body>
+    <nav id="header">
+		<ul class="list-items">
+			<li><a href=".././index.html#grid-container">About</a></li>
+			<li><a href="../blog.html">Blog</a></li>
+			<li><a href=".././index.html#contact">Contact me</a></li>
+		</ul>
+	</nav>
+
+    <div id="body-container">
+        <h1 id="post-title">
+            My journey creating a web application using Django
+        </h1>
+        <p id="post-date">August 28 2022</p>
+        <p class="post-paragraphs">
+            I study Information Systems at UFMG - Brazil. During mid term,
+            I finally started to develop a web app that I've been planning
+            for quite some time. I am vegan, and I find it difficult when I
+            go shopping at the supermarket. I try to buy food from companies
+            that do not explore animals, but gathering this information for
+            every product can be time consuming and exhausting. So I found
+            out that there is a vegan list on internet that is already
+            comprised with a list of products made by manufacturers that do
+            not exploit animals. However, I find it difficult to search for
+            products on this list, because when I search on the vegan list,
+            which is a pdf, I am getting results from the whole pdf, and content
+            from product name, manufacturer name and product's note are within
+            these results. Also, the results are scattered in different pages.
+            Additionally, the list is not being constantly updated anymore, so I
+            thought about helping simplifying the maintenance process too. I
+            tried but couldn't find a web or mobile application that allows me
+            to search for vegan products, so I thought that maybe one day I could
+            help leverage a solution. I thought that a web application would be
+            ideal to simplify the search for vegan products.            
+        </p>
+        <p class="post-paragraphs">
+            First of all, this web app was originally meant to be a
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Introduction"
+            target="_blank" rel="noopener noreferrer">progressive web application</a>
+            (PWA). It was so, because I could mimic the usage as I'd do searching
+            the pdf, that is, any user could search offline - by installing the PWA
+            as an application. I did create a functional prototype, but it's been
+            unmaintained for a while.
+        </p>
+        <p class="post-paragraphs">
+            So at the end of my academic term, I decided not to go back to PWA
+            development, and instead, I started to use Django. Some reasons that
+            counted in favor are that Django provides an admin interface that
+            enables fast addition/removals of content from the database, it is
+            safe, scalable, it uses Python, and many other reasons. But this
+            choice has cost me extra efforts. First of all, aside of PWA, I have
+            never created a web application and I have never used Django, Flask
+            or similar. So I had to learn Django by practicing, which I did by
+            following Django official tutorial, then doing a small project by
+            myself, to get more used to this tool.
+        </p>
+        <p class="post-paragraphs special-message">
+            Throughout this blog post series, I will detail about my experience
+            creating this web app, along with a lot of questions I got myself
+            into during the process.
+        </p>
+        <p class="post-paragraphs">
+            When I started to plan all the fine details about my application,
+            one of the first things I have worried about was how I would set
+            Object Relational Model (ORM). That led me to some particularities
+            from creating DB schemas to Django intrinsic functionalities. More
+            information about this will be given on my second post. Then I
+            started to think about how I would serve my web application. I had
+            never deployed an application to the cloud, so I was completely lost.
+            I'll talk more about it on a third post. Later on, I got myself
+            wondering about how I would scale this web application? How I would
+            enable concurrency? How many users would the application be able to
+            serve. These questions led me to look for answers, that I'd share
+            more in a fourth blog post.
+        </p>
+    </div>
+</body>
+</html>
